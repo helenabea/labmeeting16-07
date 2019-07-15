@@ -1,0 +1,48 @@
+####################################
+### Execute everything from base ###
+####################################
+
+### To download the Xena Data go to
+
+# https://xenabrowser.net/datapages/?hub=https://tcga.xenahubs.net:443
+
+## and select the tumor types of your interest
+
+### To preprocess the Xena Data ###
+### Currently only for Gastro samples ###
+### If changes are wanted, it needs to be manually changed ###
+
+# python3 scripts/preprocessamento.py
+
+### To execute the logistic regression ###
+### Currently only works as a logistic regression and Gastro samples ###
+### If changes are wanted, it needs to be manually changed ###
+
+# python3 scripts/classificador.py
+
+### To execute the perceptron ###
+
+# python3 scripts/perceptron_code.py
+
+### To execute the examples ###
+
+# python3 scripts/exemplo_perceptron_sklearn.py
+# python3 scripts/exemplo_ada_sklearn.py
+# python3 scripts/exemplo_log_sklearn.py
+# python3 scripts/exemplo_svm_sklearn.py
+
+### To execute the Hands-On Machine Learning file ###
+### First enter the jupyter notebook ###
+### It will execute in your browser ###
+### In there you can find the file, and it will execute ###
+
+# jupyter notebok
+
+### The following are support scrips, they don't do anything when executed ###
+
+# scripts/plot_decision_surface.py
+# scripts/plot_confusion.py
+
+### All data is in the data folder ###
+### All figures are in the figures folder ###
+### All scripts are in the scripts folder ###
